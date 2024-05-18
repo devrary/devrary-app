@@ -1,4 +1,4 @@
-package com.devraryapp;
+package com.resisterboy.devraryapp;
 
 import android.app.Application;
 import com.facebook.react.PackageList;
