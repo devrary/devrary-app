@@ -1,14 +1,10 @@
-import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
+import RootScreen from '@/src/screens/RootScreen'
 
-const BaseProvider = () => {
+const BaseAppLayer = () => {
   return (
-    <View>
-      <Text>BaseProvider</Text>
-    </View>
+    <RootScreen />
   )
 }
 
-export default BaseProvider
-
-const styles = StyleSheet.create({})
+export default BaseAppLayer

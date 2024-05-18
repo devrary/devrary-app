@@ -13,7 +13,7 @@ import HomeScreen from '@/src/screens/screen/HomeScreen';
 
 const Stack = createNativeStackNavigator<StackParamList>();
 
-const StackNavigator = () => {
+const RootScreen = () => {
   const dispatch = useDispatch();
   const theme = storage.getString('theme');
   const { isError, code } = useSelector(getError);
@@ -58,4 +58,4 @@ const StackNavigator = () => {
   );
 };
 
-export default StackNavigator;
+export default RootScreen

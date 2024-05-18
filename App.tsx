@@ -5,11 +5,11 @@ import { NavigationContainer, NavigationContainerRef, Route } from '@react-navig
 import { Provider } from 'react-redux';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import store from '@/src/redux/store';
-import StackNavigator from '@/src/screens/StackNavigator';
 import { MMKV } from 'react-native-mmkv';
 import { firebase } from '@react-native-firebase/analytics';
 import { StackParamList } from '@/src/types/routes';
 import analytics from '@react-native-firebase/analytics';
+import BaseAppLayer from '@/src/providers';
 
 export const storage = new MMKV();
 
@@ -72,7 +72,7 @@ export default function App() {
       >
       <QueryClientProvider client={queryClient}>
         <Provider store={store}>
-          <StackNavigator />
+          <BaseAppLayer />
         </Provider>
       </QueryClientProvider>
     </NavigationContainer>
