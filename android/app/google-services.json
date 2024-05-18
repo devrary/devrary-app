@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "195673700511",
+    "project_id": "devrary-eb1b3",
+    "storage_bucket": "devrary-eb1b3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:195673700511:android:e749936ea1a5657bdf8aaa",
+        "android_client_info": {
+          "package_name": "com.resisterboy.devraryapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "195673700511-m27oq1lj7cnrhfvmp4m935hp134ad2ml.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.resisterboy.devraryapp",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "195673700511-mbaneuip432k7me0mu08sgaqv2ei3qkt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmDGnrvDrU-_9vZjNHO1CHnhrRV-tDoa8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "195673700511-mbaneuip432k7me0mu08sgaqv2ei3qkt.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "195673700511-5aibihbjenjcn21gt0kmivhg7shsocgs.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.resisterboy.devraryapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
