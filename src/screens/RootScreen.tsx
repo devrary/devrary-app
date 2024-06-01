@@ -10,6 +10,7 @@ import ErrorScreen from '@/src/screens/screen/ErrorScreen';
 import { getError } from '@/src/redux/slice/errorSlice';
 import LoadingScreen from '@/src/screens/screen/LoadingScreen';
 import HomeScreen from '@/src/screens/screen/HomeScreen';
+import SignInScreen from '@/src/screens/screen/SignInScreen';
 
 const Stack = createNativeStackNavigator<StackParamList>();
 
@@ -30,7 +31,15 @@ const RootScreen = () => {
         <Stack.Screen name={ROUTES.SCREEN.LOADING} component={LoadingScreen} />
       );
     } else if (!isSignIn && !isSigningIn && !isSigningUp) {
-      return <Stack.Screen name={ROUTES.SCREEN.HOME} component={HomeScreen} />;
+      return (
+        <Stack.Screen
+          name={ROUTES.SCREEN.SIGN_IN}
+          component={SignInScreen}
+          initialParams={{
+            step: 'welcome',
+          }}
+        />
+      );
     } else {
       return <Stack.Screen name={ROUTES.SCREEN.HOME} component={HomeScreen} />;
     }
@@ -58,4 +67,4 @@ const RootScreen = () => {
   );
 };
 
-export default RootScreen
+export default RootScreen;
