@@ -40,8 +40,6 @@ export default function App() {
     }
   }, [routeNameRef])
 
-
-
   useEffect(() => {
     setTimeout(() => {
       SplashScreen.hide();

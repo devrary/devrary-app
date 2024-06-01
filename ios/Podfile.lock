@@ -1608,23 +1608,23 @@ PODS:
     - React-Core
   - RNCPushNotificationIOS (1.11.0):
     - React-Core
-  - RNFBAnalytics (19.2.2):
+  - RNFBAnalytics (19.3.0):
     - Firebase/Analytics (= 10.24.0)
     - React-Core
     - RNFBApp
-  - RNFBApp (19.2.2):
+  - RNFBApp (19.3.0):
     - Firebase/CoreOnly (= 10.24.0)
     - React-Core
-  - RNFBAuth (19.2.2):
+  - RNFBAuth (19.3.0):
     - Firebase/Auth (= 10.24.0)
     - React-Core
     - RNFBApp
-  - RNFBFirestore (19.2.2):
+  - RNFBFirestore (19.3.0):
     - Firebase/Firestore (= 10.24.0)
     - nanopb (< 2.30910.0, >= 2.30908.0)
     - React-Core
     - RNFBApp
-  - RNFBMessaging (19.2.2):
+  - RNFBMessaging (19.3.0):
     - Firebase/Messaging (= 10.24.0)
     - FirebaseCoreExtension
     - React-Core
@@ -1650,7 +1650,7 @@ PODS:
     - RCT-Folly (= 2021.07.22.00)
     - React-Core
     - React-RCTImage
-  - RNSVG (15.3.0):
+  - RNSVG (14.2.0):
     - React-Core
   - SocketRocket (0.6.1)
   - TOCropViewController (2.7.4)
@@ -1661,6 +1661,8 @@ DEPENDENCIES:
   - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
   - FBLazyVector (from `../node_modules/react-native/Libraries/FBLazyVector`)
   - FBReactNativeSpec (from `../node_modules/react-native/React/FBReactNativeSpec`)
+  - Firebase/Analytics
+  - Firebase/Messaging
   - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
   - RCT-Folly (from `../node_modules/react-native/third-party-podspecs/RCT-Folly.podspec`)
   - RCTRequired (from `../node_modules/react-native/Libraries/RCTRequired`)
@@ -1959,21 +1961,21 @@ SPEC CHECKSUMS:
   RNCAsyncStorage: 826b603ae9c0f88b5ac4e956801f755109fa4d5c
   RNCClipboard: 0a720adef5ec193aa0e3de24c3977222c7e52a37
   RNCPushNotificationIOS: 64218f3c776c03d7408284a819b2abfda1834bc8
-  RNFBAnalytics: d04c361a4b2b39bcf91f19344a6f0693081f1e32
-  RNFBApp: 614f1621b49db54ebd258df8c45427370d8d84a2
-  RNFBAuth: fbfd567c34579b2a081b9ae5d6f0e33c2f4d1205
-  RNFBFirestore: de8ff36f5f98456b1cf136fb58a3068112bd3975
-  RNFBMessaging: 74754ed198239360950f54f3e3de365fe85db451
+  RNFBAnalytics: bf7899a65d3a030221208b26ac96f935362c08ca
+  RNFBApp: dd35ba8340b89c36e42c4c137915c01d3c792143
+  RNFBAuth: 5e12865e64ffc58f83790f9bc764b0470ce07b1b
+  RNFBFirestore: 425687d12e81d6577782ea7833b9c4bddfc0b09d
+  RNFBMessaging: c8d34d9ad44a3258a77e548bba6dc3561af7cf2d
   RNGestureHandler: ee924bd0024545efc4bc88c1e856f24b785d2ca2
   RNGoogleSignin: 24d3b3261f78b0fae0aa013f8ab6f8d25e369b0c
   RNImageCropPicker: 601604515fd6fbba318147b0a56aed0be9379415
-  RNPermissions: 294531ede5a64d1528463e88fffef05675842042
+  RNPermissions: 07b219f8ac8ede835fad1165b9a65556c8ee7a51
   RNScreens: 396c07678c1c35614bc5feba74a56df387bf1965
-  RNSVG: a48668fd382115bc89761ce291a81c4ca5f2fd2e
+  RNSVG: 963a95f1f5d512a13d11ffd50d351c87fb5c6890
   SocketRocket: f32cd54efbe0f095c4d7594881e52619cfe80b17
   TOCropViewController: 80b8985ad794298fb69d3341de183f33d1853654
   Yoga: b76f1acfda8212aa16b7e26bcce3983230c82603
 
-PODFILE CHECKSUM: 1ea7bc60ed8c929961e74d55e2efad0b482dcf33
+PODFILE CHECKSUM: af05175b700d01a790ab7181fc00e07a31799a9c
 
 COCOAPODS: 1.15.0

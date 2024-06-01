@@ -1,10 +1,8 @@
-import React from 'react'
-import RootScreen from '@/src/screens/RootScreen'
+import React from 'react';
+import RootScreen from '@/src/screens/RootScreen';
 
 const BaseAppLayer = () => {
-  return (
-    <RootScreen />
-  )
-}
+  return <RootScreen />;
+};
 
-export default BaseAppLayer
+export default BaseAppLayer;
